@@ -81,6 +81,7 @@ function computerPlay(){
             endGame(playerScore,computerScore)
         }
 
+        
         function endGame(playerScore,computerScore){
             if (playerScore === 5 || computerScore === 5){
                 rock.disabled = true
@@ -94,9 +95,6 @@ function computerPlay(){
                
             }
                 
-                
-                
-            console.log(`${playerScore} and ${computerScore}`)
         }
 
         function resetGame(){
